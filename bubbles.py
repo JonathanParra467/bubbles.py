@@ -16,8 +16,8 @@ for i in range(n):
         if names[j] > names[j + 1]:
             names[j], names[j + 1] = names[j + 1], names[j]
 
-print("Sorted list:", names)
+print("Sorted list: ", names)
 
 names.reverse()
 
-print("Reversed list:", names)
+print("Reversed list: ", names)
